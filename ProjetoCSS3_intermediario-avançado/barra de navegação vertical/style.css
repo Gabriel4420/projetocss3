@@ -1,0 +1,43 @@
+/*ul{
+	
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+
+li {
+	padding: 5px 20px;
+	background: url("images/seta.png") no-repeat left center;
+}*/
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+ul a{
+	border:1px solid black;
+	width: 200px;
+	height: 40px;
+	display: block;
+	color:#000;
+	text-indent: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	background: #f7b600 url('images/menu.png') no-repeat left bottom;
+}
+
+ul a:hover {
+	background-position: right bottom;
+	background-color: #f99200;
+	color:white;
+}
+
+
+

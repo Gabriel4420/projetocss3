@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Posicionamentos (static, relative, absolute, fixed)</title>
+
+	<style>
+			body{
+				background: #007fc7;
+			}
+
+			#container{
+				background: #fff;
+				width: 800px;
+				margin:10px auto;
+				padding: 10px;
+			}
+			
+			p{
+				width: 300px;
+			}
+
+			.relative{
+				border:1px solid red;
+				position: relative; 
+				/*
+
+				Propriedades de deslocamento são validas para as positions: relative, absolute e fixed.
+				Propriedades de deslocamento : TOP, RIGHT, BOTTOM, LEFT
+				
+				top:10px;
+				right:20px;
+				left:10px;
+				bottom:10px;
+
+				se top for negativo, a ação do deslocamento sera a mesma que o bottom
+				se bottom for negativo, a ação do deslocamento sera a mesma que a top
+				se right for negativo, a ação do deslocamento sera a mesma que a left
+				se left for negativo, a ação do deslocamento sera a mesma que right
+
+				fixed: posicionamento fica fixo na viewport.
+				absoluto : acompanha o body, caso não tenha um conteudo com valor fixed, absoluto ou relativo.
+				relativo : alinhamento baseado na posição padrão da div.
+				static: alinhamento padrão.
+
+				*/
+				top: 0px;
+			
+			}
+
+
+	</style>
+</head>
+<body>
+		
+		<div id="container">
+			<h1>Lorem ipsum</h1>
+			<p>P1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores distinctio officiis itaque dolores eveniet quia eligendi error, consequuntur laudantium aspernatur, eos et quam ea magnam accusamus incidunt ducimus vitae quae.</p>
+			<p class="relative">P2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores distinctio officiis itaque dolores eveniet quia eligendi error, consequuntur laudantium aspernatur, eos et quam ea magnam accusamus incidunt ducimus vitae quae.</p>
+			<p>P3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores distinctio officiis itaque dolores eveniet quia eligendi error, consequuntur laudantium aspernatur, eos et quam ea magnam accusamus incidunt ducimus vitae quae.</p>
+			<p>P4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores distinctio officiis itaque dolores eveniet quia eligendi error, consequuntur laudantium aspernatur, eos et quam ea magnam accusamus incidunt ducimus vitae quae.</p>
+			<p>P5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores distinctio officiis itaque dolores eveniet quia eligendi error, consequuntur laudantium aspernatur, eos et quam ea magnam accusamus incidunt ducimus vitae quae.</p>
+		</div>
+	
+</body>
+</html>

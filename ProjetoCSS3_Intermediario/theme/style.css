@@ -1,0 +1,57 @@
+/* BOX MODEL 
+
+.conteudo{
+
+	border:1px solid red;
+	width: 800px;
+	/*
+	CONFIGURAÇÕES DE PADDING - ESPAÇAMENTO INTERNO DE UMA DIV
+
+	padding-top: 20px;  //PADDING DA PARTE DE CIMA
+	padding-right: 20px; //PADDING DA DIREITA
+	padding-bottom: 20px; //PADDING DA PARTE DE BAIXO
+	padding-left:20px;  //PADDING DA ESQUERDA
+
+			 CIMA  DIREITA BAIXO ESQUERDA
+	padding: 20px  30px    20px  30px;
+			 C/B   E/D
+	padding: 20px  5px;
+
+	OBS: CB - CIMA/BAIXO | E/D - ESQUERDA/DIREITA
+	=========================================================
+	
+	CONFIGURAÇÕES DE MARGIN - ESPAÇAMENTO EXTERNO DE UMA DIV
+
+	margin-top: 20px;  //MARGIN DA PARTE DE CIMA
+	margin-right: 20px; //MARGIN DA DIREITA
+	margin-bottom: 20px; //MARGIN DA PARTE DE BAIXO
+	margin-left:20px;  //MARGIN DA ESQUERDA
+
+			 CIMA  DIREITA BAIXO ESQUERDA
+	margin:  20px  30px    20px  30px;
+			C/B   E/D
+	margin: 20px  5px;
+
+	OBS: CB - CIMA/BAIXO | E/D - ESQUERDA/DIREITA 
+
+	
+
+	padding: 20px;  mesmo espaçamento em todas os lados 
+
+	margin:10px;  mesmo espaçamento em todas os lados 
+
+}
+
+*/
+
+#noticia{
+	background: #f9f9f9;
+	padding: 10px;
+	border:1px solid grey;
+
+}
+
+h2{
+	
+	margin: 2px;
+}

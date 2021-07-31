@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Layout Liquido</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!---se adapta principalmente a notebooks e tablets --->
+	<div id="container">
+		<div id="marca">marca</div>
+		<div id="conteudo">
+			<div id="conteudo-principal">
+				<h1>Conteúdo Primário</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nihil quia, assumenda eius distinctio nulla doloribus, facere asperiores similique sunt neque minus vitae sed aliquid odit, minima quaerat incidunt eum?</p>
+			</div>
+			<div id="conteudo-secundario">
+				<h1>conteudo secundário</h1>
+				          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nihil quia, assumenda eius distinctio nulla doloribus, facere asperiores similique sunt neque minus vitae sed aliquid odit, minima quaerat incidunt eum?
+				    </p>
+			   </div>
+			</div>
+		<div id="navegacao">
+			<ul>
+				<li class="m"><a id="home" href="#" onclick="() => {
+					e.preventDefault();
+					var clique = document.querySelector('.m li a ')
+				}">Home</a></li>
+				<li class="m"><a href="#">Sobre</a></li>
+				<li class="m"><a href="#">Notícias</a></li>
+				<li class="m"><a href="#">Produtos</a></li>
+				<li class="m"><a href="#">Serviços</a></li>
+				<li class="m"><a href="#">Clientes</a></li>
+				<li class="m"><a href="#">Contatos</a></li>
+			</ul>
+
+		</div>
+		<div id="footer">rodapé</div>
+	</div> 
+	
+</body>
+</html>
