@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Gabriel4420/projetocss3/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<h1 align="center">Projetos Base de conhecimento CSS3</h1>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p align="center">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/Gabriel4420/projetocss3?color=56BEB8">
 
-### Markdown
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/Gabriel4420/projetocss3?color=56BEB8">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/Gabriel4420/projetocss3?color=56BEB8">
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+</p>
 
-- Bulleted
-- List
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+ 
+  <a href="https://github.com/Gabriel4420" target="_blank">Autor</a>
+</p>
 
-1. Numbered
-2. List
+<br>
 
-**Bold** and _Italic_ and `Code` text
+## :dart: Sobre ##
 
-[Link](url) and ![Image](src)
+Projeto de base de conhecimento disponibilizado pelo curso de desenvolvimento web Completo 2021 - 20 cursos - 20 projetos, ministrado pelo professor Jorge Saint An na udemy.
+
+
+## :white_check_mark: Pré requisitos ##
+
+Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+
+## :checkered_flag: Começando ##
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/Gabriel4420/projetocss3
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+Feito com :heart: por <a href="https://github.com/Gabriel4420" target="_blank">Gabriel Rodrigues Perez</a>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Gabriel4420/projetocss3/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+&#xa0;
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<a href="#top">Voltar para o topo</a>
